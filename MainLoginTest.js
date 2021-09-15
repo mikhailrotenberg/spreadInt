@@ -42,9 +42,7 @@ test
             .click(Selector('button').withText('Login'))
 
             //assert block
-            .expect(Selector('body > div.container > div > div.modal-content.col.align-self-center > div.modal-body > div > form > div.btn-box.pt-3.pb-4 > button > span.ladda-label').innerText).eql('Login', 'Login button is not visible')
-
-            
+            .expect(Selector('body > div.container > div > div.modal-content.col.align-self-center > div.modal-body > div > form > div.btn-box.pt-3.pb-4 > button > span.ladda-label').innerText).eql('Login', 'Login button is not visible')           
 });
 
 test
